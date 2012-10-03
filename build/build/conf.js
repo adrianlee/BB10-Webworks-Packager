@@ -22,6 +22,7 @@ module.exports = {
     BUILD: path.normalize(__dirname + "/.."),
     LIB: path.normalize(__dirname + "/../../lib"),
     DEPENDENCIES: path.normalize(__dirname + "/../../dependencies"),
+    TOOLS: path.normalize(__dirname + "/../../dependencies/tools"),
     NODE_MOD: path.normalize(__dirname + "/../../node_modules"),
     FRAMEWORK: path.normalize(__dirname + "/../../Framework"),
     FRAMEWORK_DEPLOY: path.normalize(__dirname + "/../../Framework/target/zip/"),
